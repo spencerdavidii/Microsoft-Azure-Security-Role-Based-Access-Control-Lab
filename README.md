@@ -8,7 +8,7 @@ In Azure; an identity can include a user, a group, and a service principal.
 ![Uploading Azure.jpg…]()
 
 
-For instance, I created my own fictional IT company located in Cncinnati, Ohio called TigerSpeedTechnologies. We just hired an IT Senior Support Manager named Angelo. 
+For instance, I created my own fictional IT company located in Cncinnati, Ohio called TigerSpeedTechnologies. We just hired an IT Senior Support Manager named Angelo Keeling. 
 
 ![image](https://github.com/user-attachments/assets/47df6c86-a272-4c94-955d-cd8725d4c300)
 
