@@ -5,7 +5,7 @@
 ### Objectives
 - Built and documented a hands-on lab using Microsoft Entra ID (formerly Azure AD) to create and manage user identities, security groups, and role assignments—demonstrating core identity and access management skills in a cloud-based environment.
 
-- ### Skills Learned
+ ### Skills Learned
 - Identity and Access Management (IAM) fundamentals  
 - User provisioning and account creation in Microsoft Entra ID  
 - Group creation and permission assignment  
