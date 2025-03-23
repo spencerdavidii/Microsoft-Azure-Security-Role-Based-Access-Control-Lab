@@ -17,6 +17,14 @@
 - 
 ### Why Companies Use Microsoft Entra ID (Azure Active Directory)
 
+
+Microsoft Entra ID (formerly Azure Active Directory) is a cloud-based identity and access management (IAM) service that helps organizations securely manage user accounts, groups, and access to company resources. 
+
+In this example lab, you’ll see how I created a user account and assigned it to a group called "Senior Adminstrator." This group-based approach allows IT teams to manage access in a simple, organized way. Instead of setting permissions for every individual user, permissions are set at the group level and automatically applied to all group members.
+
+This mirrors how real-world organizations manage employees, contractors, and administrators. In this instance,Nathan Johnson is in the senior adminstrator group and has special access to internal tools, reports, or configurations — and users added to that group instantly receive those permissions.
+
+By walking through this lab, you’ll gain a better understanding of how identity is managed in cloud environment
 Microsoft Entra ID (formerly Azure Active Directory) is widely used by organizations to manage identity and access in a secure and scalable way. Here are the key reasons why it's essential in modern IT environments:
 
 -  **Centralized User Management**  
@@ -42,8 +50,6 @@ Microsoft Entra ID (formerly Azure Active Directory) is widely used by organizat
 
 -  **Seamless Integration with Microsoft 365 & Cloud Apps**  
   Works out of the box with Microsoft 365, Teams, SharePoint, and thousands of third-party apps.
-
-> In today’s digital-first world, Microsoft Entra ID plays a critical role in helping businesses stay secure, productive, and scalable.
 
 In this lab, I will show how users and groups are created vin Microsoft Azure environments.Identity and Access are at the core of how Role-Based Access Control (RBAC) works in Microsoft Azure.
 
