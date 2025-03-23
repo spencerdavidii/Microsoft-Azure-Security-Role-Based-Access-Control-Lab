@@ -4,6 +4,10 @@
 
 ### Objectives
 - Built and documented a hands-on lab using Microsoft Entra ID (formerly Azure AD) to create and manage user identities, security groups, and role assignments—demonstrating core identity and access management skills in a cloud-based environment.
+- Gained hands-on experience with cloud-based identity and access management (IAM)
+- Demonstrated understanding of user provisioning, group policy, and secure access controls
+
+- ### Skills Learned
 
 In this lab, I will show how users and groups are created vin Microsoft Azure environments.Identity and Access are at the core of how Role-Based Access Control (RBAC) works in Microsoft Azure.
 
