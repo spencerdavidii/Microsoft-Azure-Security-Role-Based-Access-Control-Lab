@@ -14,7 +14,7 @@
 - Understanding cloud-based vs. on-prem Active Directory  
 - Hands-on experience with Microsoft Entra ID (formerly Azure Active Directory)  
 - Secure access and user management best practices
-- 
+
 ### Why Companies Use Microsoft Entra ID (Azure Active Directory)
 
 
