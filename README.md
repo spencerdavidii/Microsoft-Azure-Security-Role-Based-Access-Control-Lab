@@ -72,35 +72,17 @@ I saw how using groups makes it easier to manage roles and permissions for multi
 It also showed me how access can be structured securely and clearly, which is important in protecting company data. Overall, I learned the importance of centralized identity and access management in keeping IT systems organized and secure.
 
 ###Senior Admins Group Containing The User Account Of Nathan Johnson As Its Member.
-Next, I added Nahtan to the Senior Admin group and selected him as the group owner.  ***Explain Task two from the exercise 
+Next,I created the Senior Administrators group and selected Nathan as the group owner.  ***Explain Task two from the exercise 
+![image](https://github.com/user-attachments/assets/f8c3d80a-c281-4f8b-a2c4-9e087a275c2d)
+**Nathan Added To The Senior Admin Group**
 
-In this task, you will create the Senior Admins group, add the user account of Joseph Price to the group, and configure it as the group owner.
+This group-based approach allows IT teams to manage access in a simple and organized way. Instead of setting permissions for every individual user, permissions are set at the group level and automatically applied to all group members.
 
-In the Azure portal, navigate back to the blade displaying your Microsoft Entra ID tenant.
+This mirrors how real-world organizations manage employees, contractors, and administrators. In this instance,Nathan Johnson has special access to internal tools, reports, or configurations — and users added to that group instantly receive those permissions as well.
 
-In the Manage section, click Groups, and then select + New group.
-
-On the New Group blade, specify the following settings (leave others with their default values):
-
-Setting	Value
-Group type	Security
-Group name	Senior Admins
-Membership type	Assigned
-Click the No owners selected link, on the Add owners blade, select Joseph Price, and click Select.
-
-
-
-
-
-
-
-
-
-In this example lab, you’ll see how I created a user account and assigned it to a group called "Senior Adminstrator." This group-based approach allows IT teams to manage access in a simple, organized way. Instead of setting permissions for every individual user, permissions are set at the group level and automatically applied to all group members.
-
-This mirrors how real-world organizations manage employees, contractors, and administrators. In this instance,Nathan Johnson is in the senior adminstrator group and has special access to internal tools, reports, or configurations — and users added to that group instantly receive those permissions as well.
-
-
+###Junior Admins group containing the user account of Aubrey Miller
+In the second phase of the lab, I will create a junior adminstrator group and add Aubrey Miller to group. 
+I will complete this process by using powershell. Essentially, powershell is a tool to use to tell the computer exactly what to do. 
 Microsoft Entra ID (formerly Azure Active Directory) is widely used by organizations to manage identity and access in a secure and scalable way. Here are the key reasons why it's essential in modern IT environments:
 
 
