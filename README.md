@@ -4,6 +4,11 @@
 
 ### Objectives
 - Built and documented a hands-on lab using Microsoft Entra ID (formerly Azure AD) to create and manage user identities, security groups, and role assignments—demonstrating core identity and access management skills in a cloud-based environment.
+- Create a Senior Admins group containing the user account of Nathan Johnson as its member.
+- Create a Junior Admins group containing the user account of Isabel Garcia as its member.
+- Create a Service Desk group containing the user account of Dylan Williams as its member.
+ - Assign the Virtual Machine Contributor role to the Service Desk group.
+
 
  ### Skills Learned
 - Identity and Access Management (IAM) fundamentals  
@@ -17,17 +22,10 @@
 
 ### Why Companies Use Microsoft Entra ID (Azure Active Directory)
 
-
 Microsoft Entra ID (formerly Azure Active Directory) is a cloud-based identity and access management (IAM) service that helps organizations securely manage user accounts, groups, and access to company resources. 
+Here a few key reasons why it is important in modern IT environments .
 
-In this example lab, you’ll see how I created a user account and assigned it to a group called "Senior Adminstrator." This group-based approach allows IT teams to manage access in a simple, organized way. Instead of setting permissions for every individual user, permissions are set at the group level and automatically applied to all group members.
-
-This mirrors how real-world organizations manage employees, contractors, and administrators. In this instance,Nathan Johnson is in the senior adminstrator group and has special access to internal tools, reports, or configurations — and users added to that group instantly receive those permissions.
-
-By walking through this lab, you’ll gain a better understanding of how identity is managed in cloud environment
-Microsoft Entra ID (formerly Azure Active Directory) is widely used by organizations to manage identity and access in a secure and scalable way. Here are the key reasons why it's essential in modern IT environments:
-
--  **Centralized User Management**  
+ **Centralized User Management**  
   Manage all user identities, roles, and access permissions from a single location—whether for 10 users or 10,000.
 
 -  **Secure Access Control**  
@@ -49,7 +47,7 @@ Microsoft Entra ID (formerly Azure Active Directory) is widely used by organizat
   Built-in tracking and reporting features help organizations stay compliant with industry regulations.
 
 -  **Seamless Integration with Microsoft 365 & Cloud Apps**  
-  Works out of the box with Microsoft 365, Teams, SharePoint, and thousands of third-party apps.
+  Works out of the box with Microsoft 365, Teams, SharePoint, and
 
 In this lab, I will show how users and groups are created vin Microsoft Azure environments.Identity and Access are at the core of how Role-Based Access Control (RBAC) works in Microsoft Azure.
 
@@ -74,7 +72,28 @@ I saw how using groups makes it easier to manage roles and permissions for multi
 It also showed me how access can be structured securely and clearly, which is important in protecting company data. Overall, I learned the importance of centralized identity and access management in keeping IT systems organized and secure.
 
 
-+++
+Next, ***Explain Task two from the exercise 
+
+
+
+
+
+
+
+
+
+
+
+
+In this example lab, you’ll see how I created a user account and assigned it to a group called "Senior Adminstrator." This group-based approach allows IT teams to manage access in a simple, organized way. Instead of setting permissions for every individual user, permissions are set at the group level and automatically applied to all group members.
+
+This mirrors how real-world organizations manage employees, contractors, and administrators. In this instance,Nathan Johnson is in the senior adminstrator group and has special access to internal tools, reports, or configurations — and users added to that group instantly receive those permissions as well.
+
+
+Microsoft Entra ID (formerly Azure Active Directory) is widely used by organizations to manage identity and access in a secure and scalable way. Here are the key reasons why it's essential in modern IT environments:
+
+
++++By walking through this lab, you’ll gain a better understanding of how identity is managed in cloud environment
 ![image](https://github.com/user-attachments/assets/f8c3d80a-c281-4f8b-a2c4-9e087a275c2d)
 
 You used the Azure Portal to create a user and a group, and assigned the user to the group.
