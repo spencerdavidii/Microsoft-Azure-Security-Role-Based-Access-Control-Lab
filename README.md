@@ -5,7 +5,7 @@
 ### Objectives
 - Built and documented a hands-on lab using Microsoft Entra ID (formerly Azure AD) to create and manage user identities, security groups, and role assignments—demonstrating core identity and access management skills in a cloud-based environment.
 - Create a Senior Admins group containing the user account of Nathan Johnson as its member.
-- Create a Junior Admins group containing the user account of Isabel Garcia as its member.
+- Create a Junior Admins group containing the user account of Aubrey Miller as its member.
 - Create a Service Desk group containing the user account of Dylan Williams as its member.
  - Assign the Virtual Machine Contributor role to the Service Desk group.
 
