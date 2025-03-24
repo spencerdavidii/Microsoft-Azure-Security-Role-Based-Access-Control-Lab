@@ -55,10 +55,10 @@ In Azure; an identity can include a user, a group, and a service principal.
 
 For instance, I created my own fictional IT company located in Cncinnati, Ohio called TigerSpeedTechnologies. We just hired an IT Support Services Director named Nathan Johnson. 
 
-In the screenshow below, I demonstrate adding him to become a user for the company TigerspeedTechnologoies.
+In the screenshow below, I demonstrate adding him as a member for the company TigerspeedTechnologoies.
 
-Additionally, I helped the IT director with his first day login process into the computer as well. I set a temporary password for him to sign into the computer then change it to a permanent secure password. =
-
+The next day Nathan sat in his office and signed into the laptop device with his temporary password. He procced to hit control + alt + delete and changed his temporary password to a new secure password. I helped the IT director with his first day sign in process into the computer as well. I set a temporary password for him to sign into the computer then change it to a permanent secure password. =
+ 
 ![Nathan Johndon part 2](https://github.com/user-attachments/assets/21402348-9de1-441c-90b4-d6c32690c3b4)
 **Nathan johnson Login Credentials**
 Next, I added Nathan Johnson to a Senior Adminstrator group and made changes to the systems to make him the group owner.
