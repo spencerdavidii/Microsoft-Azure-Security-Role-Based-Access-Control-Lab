@@ -71,11 +71,22 @@ I saw how using groups makes it easier to manage roles and permissions for multi
 
 It also showed me how access can be structured securely and clearly, which is important in protecting company data. Overall, I learned the importance of centralized identity and access management in keeping IT systems organized and secure.
 
+###Senior Admins Group Containing The User Account Of Nathan Johnson As Its Member.
+Next, I added Nahtan to the Senior Admin group and selected him as the group owner.  ***Explain Task two from the exercise 
 
-Next, ***Explain Task two from the exercise 
+In this task, you will create the Senior Admins group, add the user account of Joseph Price to the group, and configure it as the group owner.
 
+In the Azure portal, navigate back to the blade displaying your Microsoft Entra ID tenant.
 
+In the Manage section, click Groups, and then select + New group.
 
+On the New Group blade, specify the following settings (leave others with their default values):
+
+Setting	Value
+Group type	Security
+Group name	Senior Admins
+Membership type	Assigned
+Click the No owners selected link, on the Add owners blade, select Joseph Price, and click Select.
 
 
 
