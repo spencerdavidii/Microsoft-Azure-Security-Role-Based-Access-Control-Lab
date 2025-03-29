@@ -61,6 +61,7 @@ The next day Nathan sat in his office and signed into the laptop device with his
  
 ![Nathan Johndon part 2](https://github.com/user-attachments/assets/21402348-9de1-441c-90b4-d6c32690c3b4)
 **Nathan johnson Login Credentials**
+
 Next, I added Nathan Johnson to a Senior Adminstrator group and made changes to the systems to make him the group owner.
 ![image](https://github.com/user-attachments/assets/17ec4a6c-a822-4171-8867-e0b39c9c268b)
 **Senior Adminstrator**
