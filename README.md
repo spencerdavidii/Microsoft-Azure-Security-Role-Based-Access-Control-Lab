@@ -93,7 +93,9 @@ I navigated to cloud shell in the azure portal and typed **$passwordProfile = Ne
 
 
 Next, I ran the following code  **$passwordProfile.Password = "Pa55w.rd1234** to set the value of the password within the profile object.
-![Azure powershell using powershel task 1](https://github.com/user-attachments/assets/92e72550-04bb-4d36-9028-71ef9b3f3543)
+**Azure Password Code**
+![Azure Password code ](https://github.com/user-attachments/assets/ef50521a-9b3d-430b-ab8a-70b6bafc5bf3)
+
 
 After I connected to Microsoft Entra ID, I typed the code  **$domainName = ((Get-AzureAdTenantDetail).VerifiedDomains)[0].Name** to identify the name of my Microsoft Entra ID Tenant.
 **Microsoft Entra ID Tenant**
