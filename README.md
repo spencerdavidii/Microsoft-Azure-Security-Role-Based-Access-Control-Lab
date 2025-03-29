@@ -88,8 +88,9 @@ I will complete this process by using powershell. Essentially, powershell is a t
 
 I navigated to cloud shell in the azure portal and typed **$passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile** to create a password profile object. 
 
-** Reference: Password Profile Object Code**
-![image](https://github.com/user-attachments/assets/90f4f037-d91f-425e-b52d-ca19fb0fbf7c)
+**Reference: Password Profile Object Code**
+![Azure password profile object](https://github.com/user-attachments/assets/075d2cdd-7f01-4f19-b045-e89f41413ce3)
+
 
 Next, I ran the following code  **$passwordProfile.Password = "Pa55w.rd1234** to set the value of the password within the profile object.
 ![Azure powershell using powershel task 1](https://github.com/user-attachments/assets/92e72550-04bb-4d36-9028-71ef9b3f3543)
