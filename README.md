@@ -57,7 +57,7 @@ For instance, I created my own fictional IT company located in Cncinnati, Ohio c
 
 In the screenshow below, I demonstrate adding him as a member for the company TigerspeedTechnologoies.
 
-The next day Nathan sat in his office and signed into the laptop device with his temporary password. He procced to hit control + alt + delete and changed his temporary password to a new secure password. I helped the IT director with his first day sign in process into the computer as well. I set a temporary password for him to sign into the computer then change it to a permanent secure password. =
+The next day Nathan sat in his office and signed into the laptop device with his temporary password. He procced to hit control + alt + delete and changed his temporary password to a new secure password. I helped the IT director with his first day sign in process into the computer as well. I set a temporary password for him to sign into the computer then change it to a permanent secure password.
 
  **Nathan johnson Login Credentials**
 ![Nathan Johndon part 2](https://github.com/user-attachments/assets/21402348-9de1-441c-90b4-d6c32690c3b4)
@@ -84,8 +84,26 @@ This mirrors how real-world organizations manage employees, contractors, and adm
 
 ###Junior Admins group containing the user account of Aubrey Miller
 In the second phase of the lab, I will create a junior adminstrator group and add Aubrey Miller to group. 
-I will complete this process by using powershell. Essentially, powershell is a tool to use to tell the computer exactly what to do. 
-Microsoft Entra ID (formerly Azure Active Directory) is widely used by organizations to manage identity and access in a secure and scalable way. Here are the key reasons why it's essential in modern IT environments:
+I will complete this process by using powershell. Essentially, powershell is a tool to use to tell the computer exactly what to do like moving programs or opening files. 
+
+I navigated to cloud shell in the azure portal and typed **$passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile** to create a password profile object. 
+
+** Reference: Password Profile Object Code**
+![image](https://github.com/user-attachments/assets/90f4f037-d91f-425e-b52d-ca19fb0fbf7c)
+
+Next, I ran the following code  **$passwordProfile.Password = "Pa55w.rd1234** to set the value of the password within the profile object.
+![Azure powershell using powershel task 1](https://github.com/user-attachments/assets/92e72550-04bb-4d36-9028-71ef9b3f3543)
+
+After I connected to Microsoft Entra ID, I typed the code  **$domainName = ((Get-AzureAdTenantDetail).VerifiedDomains)[0].Name** to identify the name of my Microsoft Entra ID Tenant.
+**Microsoft Entra ID Tenant**
+![Azure powershell using powershel task 1](https://github.com/user-attachments/assets/f8c5ac76-e953-403f-9a51-da049de53893)
+
+For this phase of the lab, I selected Aubrey Miller.
+I utilized this code  **New-AzureADUser -DisplayName 'Aubrey Miller' -PasswordProfile $passwordProfile -UserPrincipalName "Aubrey@$domainName" -AccountEnabled $true -MailNickName 'Aubrey'** to create a user account for Aubrey 
+
+**Created a user account for Aubrey Miller**
+![Azure powershell using powershel task 1](https://github.com/user-attachments/assets/32830def-6992-431c-9156-c44a650671c7)
+
 
 
 +++By walking through this lab, you’ll gain a better understanding of how identity is managed in cloud environment
