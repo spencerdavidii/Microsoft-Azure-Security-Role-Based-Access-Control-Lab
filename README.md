@@ -99,8 +99,10 @@ Next, I ran the following code  **$passwordProfile.Password = "Pa55w.rd1234** to
 
 
 After I connected to Microsoft Entra ID, I typed the code  **$domainName = ((Get-AzureAdTenantDetail).VerifiedDomains)[0].Name** to identify the name of my Microsoft Entra ID Tenant.
+
 **Microsoft Entra ID Tenant**
-![Azure powershell using powershel task 1](https://github.com/user-attachments/assets/f8c5ac76-e953-403f-9a51-da049de53893)
+![image](https://github.com/user-attachments/assets/65dbe022-1287-43bb-ba0c-328c66abd09e)
+
 
 For this phase of the lab, I selected Aubrey Miller.
 I utilized this code  **New-AzureADUser -DisplayName 'Aubrey Miller' -PasswordProfile $passwordProfile -UserPrincipalName "Aubrey@$domainName" -AccountEnabled $true -MailNickName 'Aubrey'** to create a user account for Aubrey 
