@@ -93,7 +93,8 @@ I navigated to cloud shell in the azure portal and typed **$passwordProfile = Ne
 
 
 Next, I ran the following code  **$passwordProfile.Password = "Pa55w.rd1234** to set the value of the password within the profile object.
-**Azure Password Code**
+
+**Reference: Azure Password Code**
 ![Azure Password code ](https://github.com/user-attachments/assets/ef50521a-9b3d-430b-ab8a-70b6bafc5bf3)
 
 
