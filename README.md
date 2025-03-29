@@ -57,15 +57,15 @@ For instance, I created my own fictional IT company located in Cncinnati, Ohio c
 
 In the screenshow below, I demonstrate adding him as a member for the company TigerspeedTechnologoies.
 
-The next day Nathan sat in his office and signed into the laptop device with his temporary password. He procced to hit control + alt + delete and changed his temporary password to a new secure password. I helped the IT director with his first day sign in process into the computer as well. I set a temporary password for him to sign into the computer then change it to a permanent secure password.
+The next day Nathan sat in his office and signed into the laptop device with his temporary password. He procced to hit control + alt + delete and changed his temporary password to a new secure password. I helped the IT director with his first day sign in process into the computer as well. I set a temporary password for him to sign into the computer then change it to a permanent secure password.  Next, I added Nathan Johnson to a Senior Adminstrator group and made changes to the systems to make him the group owner.
 
  **Nathan johnson Login Credentials**
 ![Nathan Johndon part 2](https://github.com/user-attachments/assets/21402348-9de1-441c-90b4-d6c32690c3b4)
 
 
-Next, I added Nathan Johnson to a Senior Adminstrator group and made changes to the systems to make him the group owner.
+**Reference:Nathan added to the Senior Adminstrator Group**
 ![image](https://github.com/user-attachments/assets/17ec4a6c-a822-4171-8867-e0b39c9c268b)
-**Senior Adminstrator**
+
 
 From that exercise, I learned how to manage user identities and organize access using Microsoft Entra ID in the Azure portal. I created a user account from scratch and added that user to a security group, which taught me how companies can efficiently control access to resources. 
 
@@ -73,10 +73,9 @@ I saw how using groups makes it easier to manage roles and permissions for multi
 
 It also showed me how access can be structured securely and clearly, which is important in protecting company data. Overall, I learned the importance of centralized identity and access management in keeping IT systems organized and secure.
 
-###Senior Admins Group Containing The User Account Of Nathan Johnson As Its Member.
-Next,I created the Senior Administrators group and selected Nathan as the group owner.  ***Explain Task two from the exercise 
-![image](https://github.com/user-attachments/assets/f8c3d80a-c281-4f8b-a2c4-9e087a275c2d)
-**Nathan Added To The Senior Admin Group**
+This group-based approach allows IT teams to manage access in a simple and organized way. Instead of setting permissions for every individual user, permissions are set at the group level and automatically applied to all group members.
+
+This mirrors how real-world organizations manage employees, contractors, and administrators. In this instance,Nathan Johnson has special access to internal tools, reports, or configurations — and users added to that group instantly receive those permissions as well.
 
 This group-based approach allows IT teams to manage access in a simple and organized way. Instead of setting permissions for every individual user, permissions are set at the group level and automatically applied to all group members.
 
@@ -107,7 +106,7 @@ After I connected to Microsoft Entra ID, I typed the code  **$domainName = ((Get
 For this phase of the lab, I selected Aubrey Miller.
 I utilized this code  **New-AzureADUser -DisplayName 'Aubrey Miller' -PasswordProfile $passwordProfile -UserPrincipalName "Aubrey@$domainName" -AccountEnabled $true -MailNickName 'Aubrey'** to create a user account for Aubrey 
 
-**Reference:Created a user account for Aubrey Miller**
+**Reference: Created a user account for Aubrey Miller**
 ![image](https://github.com/user-attachments/assets/363e1172-8016-4fc2-a14e-944e69f4276b)
 
 
